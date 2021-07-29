@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #1c272b;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subnav1{
+    display: flex;
+}
+
+#logo{
+    display: flex;
+    margin-top: 15px;
+}
+#logo img{
+    width: 40px;
+    height: 40px;
+    margin-left: 12px;
+}
+
+#logo h3{
+    margin-top: 10px;
+    color: #fff;
+    font-family: MS Gothic, calibri;
+    margin-left: 5px;
+}
+
+#sub-nav{
+    list-style: none;
+    display: flex;
+    padding-left: 10px;
+}
+
+#sub-nav li{
+    margin-top: 24px;
+    margin-left: 40px;
+}
+
+#sub-nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: calibri;
+    font-weight: bold;
+}
+
+#sub-nav li a:hover{
+    color: #ff6c37;
+    transition: 1s ease;
+}
+
+#sub-nav li .fa{
+    color: #fff;
+    padding-left: 5px;
+}
+
+.sign{
+    margin-right: 35px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.sign a{
+    text-decoration: none;
+    margin-left: 25px;
+    color: #fff;
+    font-family: calibri;
+    font-weight: bold;
+}
+
+.sign a:hover{
+    color: #ff6c37;
+    transition: 1s ease-in-out;
+}
+
+.sign button{
+    width: 80px;
+    height: 40px;
+    background-color: #ff6c37;
+    outline: none;
+    border-color: #ff6c37;
+    color: #fff;
+    font-weight: bold;
+    font-family: calibri;
+}
+
+.sign button:hover{
+    background-color: #1c272b;
+    color: #ff6c37;
+    outline: #1c272b;
+    transition: 1.5s ease-in-out;
+}
+
+.section1{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.sect1{
+    margin: 30px;
+}
+
+.sect1 h1{
+    margin-top: -40px;
+    font-size: 75px;
+    color: #fff;
+    font-family: calibri;
+}
+
+.sect1 h4{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: calibri;
+    margin-bottom: 40px;
+}
+
+.sect1 a{
+    text-decoration: none;
+    margin-top: 40px;
+    color: #ff6c37;
+    font-family: calibri;
+    font-weight: bold;
+}
+
+.sect1 a:hover{
+    border: 0;
+    border-bottom: 2px solid #ff6c37;
+    color: #fff;
+    transition: 0.6s ease-in-out;
+}
+
+.form{
+    width: 450px;
+    height: 550px;
+    box-shadow: 1px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 60px;
+}
+
+.form h3{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: calibri;
+    margin-bottom: 20px;
+}
+
+.input-box{
+    border-radius: 8px;
+    width: 92%;
+    height: 30px;
+    padding: 10px;
+    margin: 5px;
+    margin-left: -2px;
+    border: 1px solid #888;
+    outline: none;
+}
+
+.form p{
+    margin-top: 5px;
+    font-weight: bold;
+    font-family: calibri;
+}
+
+.form h5{
+    margin-top: 16px;
+    font-family: calibri;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.form h5 span{
+    margin-right: 5px;
+    margin-top: 18px;
+}
+
+button{
+    color: #fff;
+    width: 96%;
+    height: 45px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+    margin-bottom: 27px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.sign-in-btn{
+    background-color: #ff6c37;
+}
+
+.sign-in-google{
+    background-color: rgb(65, 65, 255);
+}
+
+.form hr{
+    width: 70%;
+    margin-left: 60px;
+}
+
+#or{
+    margin-top: -10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: calibri;
+}
+
+.form h6{
+    margin-top: -15px;
+    font-family: calibri;
+    font-size: 15px;
+}
+
+.term{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6c37;
+}
+
+
+.sect2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+.galaxy-badge img{
+    width: 300px;
+    height: 300px;
+    margin-top: -30px;
+}
+
+.galaxy-badge h2{
+    margin-left: 30px;
+    color: #fff;
+    font-family: MS Gorthic, Calibri;
+    font-size: 60px;
+    font-weight: 400;
+    text-align:center;
+}
+
+.sect2-aside{
+    font-family: calibri;
+    font-weight: 400;
+    color: #fff;
+}
+
+.sect2-aside h3{
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.sect2-aside p{
+    line-height: 25px;
+    margin-bottom: 60px;
+    font-weight: 500;
+}
+
+.sect2-aside a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.sect2-aside a:hover{
+    border: 0;
+    border-left: -1px solid #ff6c37;
+    border-bottom: 3px solid #ff6c37;
+    transition: 0.5s ease;
+}
+
+.sect3{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.sect3-title{
+    color: #fff;
+}
+
+.sect3-title h1{
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.sect3-title p{
+    margin-bottom: 35px;
+    color: #fff;
+}
+
+.sect3-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    line-height: 20px;
+    margin-right: 30px;
+}
+
+.col{
+    flex-basis: 30%;
+    padding: 10px;
+    margin-left: 30px;
+    background: #fff;
+    border-radius: 7px;
+}
+
+.col h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.col p{
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.col a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 7px;
+}
+
+.col a:hover{
+    border: 0;
+    border-left: -1px solid #ff6c37;
+    border-bottom: 3px solid #ff6c37;
+    transition: 0.5s ease;
+
+}

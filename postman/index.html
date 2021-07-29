@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>POSTMAN-API development</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="subnav1">
+            <div id="logo">
+                <img src="postlogo.png" alt="">
+                <h3>POSTMAN</h3>
+            </div>
+
+            <div class="nav-links" id="navLinks"></div>
+
+            <ul id="sub-nav">
+                <li><a href="#">Product</a><i class="fa fa-angle-down"></i></li>
+                <li><a href="#">Use Cases</a><i class="fa fa-angle-down"></i></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Entreprise</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Learning Centre</a></li>
+            </ul>
+        </div>
+        
+        <div class="sign">
+                <a href="">Sign in</a>
+                <a href="#"><button>Sign Up</button></a>
+        </div>
+
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </div>
+    
+
+    <div class="section1">
+        <div class="sect1">
+            <h1>The collaboration<br>Platform for API<br>Development</h1>
+            <h4>Simplify each step of building an API and streamline collaboration so you<br>can create better APIs-faster.</h4>
+            <a href="#">Learn More</a>
+        </div>
+
+        <div class="form">
+            <form>
+                <h3>Get Started with Postman</h3>
+                <input type="username" class="input-box" placeholder="Username"><br>
+                <input type="email" class="input-box" placeholder="Email"><br>
+                <input type="password" class="input-box" placeholder="Password"><br>
+                <p>Password need to be atleast 7 characters long</p>
+
+                <h5><span><input type="checkbox"></span> Sign me up to get products updates news and other marketing communications</h5>
+                <button type="submit" class="sign-in-btn">Create Account</button>
+                <hr>
+                <h5 id="or">or</h5>
+                <button type="button" class="sign-in-google">Sign Up with Google</button>
+
+                <h6>By owning an account I agree to the <a href="#" class="term">Terms</a> and <a href="#" class="term">Privacy Policy</a></h6>
+            </form>
+        </div>
+    </div>
+
+    <div class="sect2">
+        <div class="galaxy-badge">
+            <img src="galaxy-tour-badge.png" alt="">
+            <h2>GALAXY<span></span><br>POSTMAN</span></h2>
+        </div>
+        <div class="sect2-aside">
+            <h3>Postman Galaxy is now on Demand</h3>
+            <p>This year Postman Galaxy global API conference (held February 2-4,2021) features more tha a<br>
+            hundred sessions on topics including API collaboration, development, testing, design, architecture<br>
+            specifications and more. And because we don't want you to miss out, we've made some of the most<br>
+            popular Postman Galaxy sessions available on demand for you.</p>
+
+            <a href="#">View on demand sessions</a>
+        </div>
+    </div>
+
+    <div class="sect3">
+        <div class="sect3-title">
+            <h1>What is Postman?</h1>
+            <p>Postman is a collaboration platform for API development. Postman's features simplify each step of<br>building an API and streamlne collaboration so you can create better APIs-faster.</p>
+        </div>
+
+        <div class="sect3-box">
+            <div class="col">
+                <h2>API client</h2>
+                <p>Quickly and easily send REST, SOAP, and GraphQL requests directly within Postman.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="col">
+                <h2>Automated Testing</h2>
+                <p>Automate manual tests and integrate them into your CI/CD pipeline to ensure that any code changes won't break the API in production</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="col">
+                <h2>Design & Mock</h2>
+                <p>Communicate the expected behaviour of an API by simulating endpoints and their responses without having to set up a backend server.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="col">
+                <h2>Documentation</h2>
+                <p>Generate and publish beautiful, machine-readable documentation to make your API easier to consume.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="col">
+                <h2>Monitors</h2>
+                <p>Stay up-to-date on the health of your API by checking performance and response times at scheduled intervals.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="col">
+                <h2>Workspace</h2>
+                <p>Provide a shared context for building and consuming APIs and collaborate in real-time with built-in version control.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript for toggle menu -->
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>

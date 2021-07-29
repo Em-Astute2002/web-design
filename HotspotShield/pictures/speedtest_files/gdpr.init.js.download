@@ -1,0 +1,1 @@
+var gdpr=new Gdpr({scripts:[{name:'gtm',url:0,id:'T2M4SV5',agrType:'analytics'},{name:'sentry',url:'false',id:'https://3a4fa98d5c31470ab928808c32475bdf@sentry.io/207515',agrType:'analytics'}],termsUrl:'/privacy/',ignoreList:["/privacy/","/terms/"]});gdpr.init();
